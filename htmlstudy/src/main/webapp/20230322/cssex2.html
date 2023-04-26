@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- webapp/20230322/cssex2.html -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>id 속성값 선택</title>
+<style type="text/css">
+	h1 {margin:0 auto;}
+	/*margin : 셀들 사이의 간격 */
+	#header {width:800px; margin:0 auto; background:red;}
+	/*overflow:hidden : 범위 밖의 내용을 안보여줌 */
+	#wrap {width:800px; margin:0 auto; overflow:hidden;}
+	/*float:left :왼쪽부터 배치하기*/
+	#aside {width:200px; float:left; background:blue;}
+	#content {width:600px; float:left; background:green;}
+</style>
+</head>
+<body>
+<div id="header"><h1>#header</h1></div>
+<div id="wrap">
+	<div id="aside"><h1>#aside</h1></div>
+	<div id="content"><h1>#content</h1></div>
+</div>	
+</body>
+</html>
